@@ -10,27 +10,27 @@ void main(){
     // const pi = 3.14;
     // var myNumber = 10;
     // var z = 12;
-
-    void printIt(var x){
-        print(x);
-    }
-
-    void nullableParameter(var x , [var y]){
-        print(x);
-        print(y??"y has not been sent!");
-    }
-
-    nullableParameter(10);
-
-    var list1 = ["firstElement", "secondElement", "thirdElement"];
-    var map1 = {
-        "name" : "Ozgur",
-        "surname" :"Ustun"
-    };
-
-    printIt(map1.keys);
-
-
+    //
+    // void printIt(var x){
+    //     print(x);
+    // }
+    //
+    // void nullableParameter(var x , [var y]){
+    //     print(x);
+    //     print(y??"y has not been sent!");
+    // }
+    //
+    // nullableParameter(10);
+    //
+    // var list1 = ["firstElement", "secondElement", "thirdElement"];
+    // var map1 = {
+    //     "name" : "Ozgur",
+    //     "surname" :"Ustun"
+    // };
+    //
+    // printIt(map1.keys);
+    //
+    //
     // print(a);
     // print(b);
     // print(c);
@@ -43,10 +43,10 @@ void main(){
     // list1.forEach((element) {
     //     print(element);
     // } );
-
-    print(map1["name"]);
-    print(map1.keys);
-
+    //
+    // print(map1["name"]);
+    // print(map1.keys);
+    //
     //
     // if(y<18){
     //     print("y is lower than 18");
@@ -68,7 +68,7 @@ void main(){
     // for(int i=myNumber; i<=z ; i++){
     //     print("inside for loop and i is: " + i.toString());
     // }
-
+    //
     // while(z < 13){
     //     z++;
     // }
